@@ -11,7 +11,7 @@
 	<groupId>sdj</groupId>
 	<artifactId>query-by-example-labex</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>query-by-example</name>
+	<name>query-by-example-labex</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

@@ -11,7 +11,7 @@
 	<groupId>sdj</groupId>
 	<artifactId>paging-and-sorting-labex</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-sample</name>
+	<name>paging-and-sorting-labex</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

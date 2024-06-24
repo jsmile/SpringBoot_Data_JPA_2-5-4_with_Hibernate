@@ -5,8 +5,7 @@
 	<groupId>sdj</groupId>
 	<artifactId>stored-procedures-repository</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
-	<name>spring-boot-sample</name>
+	<name>stored-procedures-repository</name>
 	<description>Demo project for Spring Boot</description>
 
     <parent>
