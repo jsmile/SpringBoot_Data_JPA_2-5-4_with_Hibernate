@@ -10,7 +10,7 @@ import sdj.entity.Guide;
 
 public interface GuideRepository extends JpaRepository<Guide, Long> {
 	
-	@EntityGraph(attributePaths = {"students.hostel"}, type = EntityGraphType.FETCH)
+	@EntityGraph(attributePaths = {"students"}, type = EntityGraphType.FETCH)
 	Optional<Guide> findById(Long id);
 	
 }
