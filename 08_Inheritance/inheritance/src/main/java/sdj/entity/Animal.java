@@ -9,13 +9,13 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
 @Entity
-@Inheritance(strategy=InheritanceType.SINGLE_TABLE) 
-//@Inheritance(strategy=InheritanceType.JOINED) 
-//@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS) 
+//@Inheritance(strategy=InheritanceType.SINGLE_TABLE)
+//@Inheritance(strategy=InheritanceType.JOINED)
+@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
 public abstract class Animal {
 
 	@Id 
-	@GeneratedValue(strategy=GenerationType.IDENTITY) // use GenerationType.SEQUENCE for TABLE_PER_CLASS strategy
+	@GeneratedValue(strategy=GenerationType.SEQUENCE) // use GenerationType.SEQUENCE for TABLE_PER_CLASS strategy
 	private Long id;
 	
 	@Column(nullable=false)

@@ -6,7 +6,7 @@
 	<artifactId>stored-procedures-em</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>spring-boot-sample</name>
+	<name>stored-procedures-em</name>
 	<description>Demo project for Spring Boot</description>
 
     <parent>
